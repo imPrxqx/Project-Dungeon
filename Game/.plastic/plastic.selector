@@ -1,0 +1,3 @@
+rep "Project Dungeon@ProjectGameKRM@cloud"
+  path "/"
+    smartbranch "/main"

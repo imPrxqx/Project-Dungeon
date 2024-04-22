@@ -1,0 +1,1779 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1586; Version 2009; 64bit' Language: 'cs' Physical Memory: 32678 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Project Dungeon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+13737
+Successfully changed project path to: D:/Unity/Project Dungeon
+D:/Unity/Project Dungeon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2 (6cf78cb77498)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Project Dungeon/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002910 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1126ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (155ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 94.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 1.816600 ms (FindLiveObjects: 0.163700 ms CreateObjectMapping: 0.063200 ms MarkObjects: 1.451200 ms  DeleteObjects: 0.137400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TerrainData_c3c4dceb-a59f-4211-ba3d-a664d350c011.asset
+  artifactKey: Guid(550b43e97ff646643acc4b81a2f8f29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_c3c4dceb-a59f-4211-ba3d-a664d350c011.asset using Guid(550b43e97ff646643acc4b81a2f8f29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b56f06d1e8e4582eb0b59f8973200c5') in 0.049328 seconds 
+  Import took 0.051925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(eba26bcfabbb6284885e947e6faa4b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(eba26bcfabbb6284885e947e6faa4b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca73d63dd75db60f700110ca33fc2f65') in 0.006714 seconds 
+  Import took 0.009232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(aa58b347b10a50e42860b2d9514d9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(aa58b347b10a50e42860b2d9514d9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970047889f0c7e7c68df84d93c2444b7') in 0.120086 seconds 
+  Import took 0.123064 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (772ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 1.880700 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.661600 ms  DeleteObjects: 0.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 589.152619 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Documentation_Dark.png
+  artifactKey: Guid(f021fcde69ae34d45a7c61ef1c2a7847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Documentation_Dark.png using Guid(f021fcde69ae34d45a7c61ef1c2a7847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527eca77a4de156e6c0b80d58fa09ea5') in 0.100764 seconds 
+  Import took 0.103904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303093 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Documentation_Light.png
+  artifactKey: Guid(72fdfbdc839a2a24b870d58fa1f1ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Documentation_Light.png using Guid(72fdfbdc839a2a24b870d58fa1f1ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac1900a24f5037d7b6ea579c25af56f') in 0.023216 seconds 
+  Import took 0.025723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368977 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Tutorials_Dark.png
+  artifactKey: Guid(4c53a5dd534d1f341b05dc689fe5dec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Tutorials_Dark.png using Guid(4c53a5dd534d1f341b05dc689fe5dec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e994e65ff46e8e37cadd23efb3715c6') in 0.015163 seconds 
+  Import took 0.017776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045947 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Tutorials_Light.png
+  artifactKey: Guid(54dc68cae88ecc34ca980b72638b20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Button_Tutorials_Light.png using Guid(54dc68cae88ecc34ca980b72638b20fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcf4b7b955b1b9fd1efd2945c850fba') in 0.031824 seconds 
+  Import took 0.034359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.384096 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Color.png
+  artifactKey: Guid(c08cdafa42bf8684691a25546c48a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Color.png using Guid(c08cdafa42bf8684691a25546c48a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9bfe19889eabf5da721dc2bd200312') in 0.023672 seconds 
+  Import took 0.026364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046354 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Color_Light.png
+  artifactKey: Guid(823e0e646f77f3c479fc25100d7c9a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Color_Light.png using Guid(823e0e646f77f3c479fc25100d7c9a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27943ac0a1b76ee1c539a8b306057331') in 0.027882 seconds 
+  Import took 0.030364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.098840 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_1.png
+  artifactKey: Guid(9bd1ab67831ae1143a7c9240fd2909c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_1.png using Guid(9bd1ab67831ae1143a7c9240fd2909c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee670fca410cbe2900e4236c61896af1') in 0.014964 seconds 
+  Import took 0.017519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354227 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_2.png
+  artifactKey: Guid(32bb07d59564fb54cac994f0330d3db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_2.png using Guid(32bb07d59564fb54cac994f0330d3db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b679da8810f55cd331f7ebe6d12dfb2') in 0.012387 seconds 
+  Import took 0.015239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.683506 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_3.png
+  artifactKey: Guid(b41030d233d16f24e83aa6d9fc5d8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_3.png using Guid(b41030d233d16f24e83aa6d9fc5d8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30973407fcdbd80451e08cabbc983786') in 0.011827 seconds 
+  Import took 0.016040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001494 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_3.png
+  artifactKey: Guid(b41030d233d16f24e83aa6d9fc5d8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_3.png using Guid(b41030d233d16f24e83aa6d9fc5d8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30973407fcdbd80451e08cabbc983786') in 0.006715 seconds 
+  Import took 0.010301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063422 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_4.png
+  artifactKey: Guid(4a9d9338a8bdbb54eb37a1160ab0ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_4.png using Guid(4a9d9338a8bdbb54eb37a1160ab0ed8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25568bd89f9cc264ec1bac1eaf5f593') in 0.020274 seconds 
+  Import took 0.022833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322529 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_5.png
+  artifactKey: Guid(ff2863db4dea0ee4881d425fd90963fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_5.png using Guid(ff2863db4dea0ee4881d425fd90963fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634318e79e1cc02eece8b8c404db202a') in 0.009939 seconds 
+  Import took 0.012474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.360031 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_6.png
+  artifactKey: Guid(615882922c65623469adc3d11e06c5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comment_Texture_Icon_6.png using Guid(615882922c65623469adc3d11e06c5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f657ec7958c805a3d6485005d4a9562c') in 0.042508 seconds 
+  Import took 0.045975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Documentation.png
+  artifactKey: Guid(6c21c6b79bc47ad47a5103d4c818af97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Documentation.png using Guid(6c21c6b79bc47ad47a5103d4c818af97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368ceb9e5f48ad9be96c9f0f35e8de8f') in 0.008413 seconds 
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility_Light.png
+  artifactKey: Guid(4741637d1c474f546913d142845d5974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility_Light.png using Guid(4741637d1c474f546913d142845d5974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c465446b31427995997cb20ec6aab08') in 0.017290 seconds 
+  Import took 0.020151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Area_Comments.png
+  artifactKey: Guid(856e184a01d81e1459cdf1569c00ba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Area_Comments.png using Guid(856e184a01d81e1459cdf1569c00ba04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36bee156c36ed379560a70be2a8b353') in 0.010648 seconds 
+  Import took 0.013171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Auto_Light.png
+  artifactKey: Guid(2146092571ee0664faa6da60d91c1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Auto_Light.png using Guid(2146092571ee0664faa6da60d91c1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09acf17fc58f10b3be1ba60c7121162f') in 0.015625 seconds 
+  Import took 0.018823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility_On_Light.png
+  artifactKey: Guid(6cccb20ea6250f747be3b034f31cc7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility_On_Light.png using Guid(6cccb20ea6250f747be3b034f31cc7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c25db091bd0ea80b050b1257cdace74') in 0.007470 seconds 
+  Import took 0.010662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Back_Light.png
+  artifactKey: Guid(139e9c115570cbe48a1aadbbcb0f4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Back_Light.png using Guid(139e9c115570cbe48a1aadbbcb0f4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e8a6fdda1defcb054cdec9f6f12234') in 0.016745 seconds 
+  Import took 0.019358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export.png
+  artifactKey: Guid(ffed6c4e214034e4d8c7c6741c49dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export.png using Guid(ffed6c4e214034e4d8c7c6741c49dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6867f68a8581fdb63e2969259cdd6f5') in 0.033298 seconds 
+  Import took 0.035982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export_Selected.png
+  artifactKey: Guid(978d55336a24db444a6eedc7601ae3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export_Selected.png using Guid(978d55336a24db444a6eedc7601ae3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e267fb98b34347231f35248ec2ec9b9d') in 0.012037 seconds 
+  Import took 0.015013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Floors_Light.png
+  artifactKey: Guid(51cc4d19df9e27d4eb479bbb8f0e0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Floors_Light.png using Guid(51cc4d19df9e27d4eb479bbb8f0e0bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cabb040a045528ed5985cc25fb03b7') in 0.008087 seconds 
+  Import took 0.010847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Foliage_Light.png
+  artifactKey: Guid(3fdbeab79bdccc34b893ca8e7bd91571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Foliage_Light.png using Guid(3fdbeab79bdccc34b893ca8e7bd91571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68a1aed66e16e26a7f59378145e9d84') in 0.048624 seconds 
+  Import took 0.052116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Dynamic_Light.png
+  artifactKey: Guid(2686d2a346779694ca511bc79602febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Dynamic_Light.png using Guid(2686d2a346779694ca511bc79602febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6b34213e77bc4a7b5de22b6045d4ff') in 0.014003 seconds 
+  Import took 0.016745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_x_Light.png
+  artifactKey: Guid(2f8e954fd02818b4185497bb740c1b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_x_Light.png using Guid(2f8e954fd02818b4185497bb740c1b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532fdb9d10e36a47d55c6a51bbcdd6d6') in 0.017608 seconds 
+  Import took 0.020292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Coloured.png
+  artifactKey: Guid(77f6b103bb6cbf149949c95dd5ad37ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Coloured.png using Guid(77f6b103bb6cbf149949c95dd5ad37ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de85cb1d49c0a19330c6d36a47cc4a47') in 0.010609 seconds 
+  Import took 0.013509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Open.png
+  artifactKey: Guid(8096fcf36d803dd4b853503d8092c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Open.png using Guid(8096fcf36d803dd4b853503d8092c0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e20d4fb5c7c35b1d65b8b4e310b775a') in 0.020423 seconds 
+  Import took 0.023087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Coloured_Light.png
+  artifactKey: Guid(2981faf61b8cf23459f85810936553e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Coloured_Light.png using Guid(2981faf61b8cf23459f85810936553e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724c2ba0c024540490a3a05ef68565da') in 0.016824 seconds 
+  Import took 0.019464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Example Scenes_Light.png
+  artifactKey: Guid(e9ef571720152b34fbe883bec05bc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Example Scenes_Light.png using Guid(e9ef571720152b34fbe883bec05bc381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd05768649beeb36ef0e7dab04deaf3c') in 0.015129 seconds 
+  Import took 0.017827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility.png
+  artifactKey: Guid(f4102544237f76f49847c59e91c82ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility.png using Guid(f4102544237f76f49847c59e91c82ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e13e429a49dd9698a22fc4abcf22651') in 0.027121 seconds 
+  Import took 0.029913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Particles.png
+  artifactKey: Guid(4ff79e59b31bbf2469a6555c68a276fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Particles.png using Guid(4ff79e59b31bbf2469a6555c68a276fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd661e6ef1a87b317d6bb0b769c6af7') in 0.007531 seconds 
+  Import took 0.010781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Back.png
+  artifactKey: Guid(883158041d302c547a796ce44b30e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Back.png using Guid(883158041d302c547a796ce44b30e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2167b6cb38ca890fe978514fed858d5d') in 0.016948 seconds 
+  Import took 0.020177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_Master.png
+  artifactKey: Guid(4e6c25f2d5d40174c8fd8a1476b7418e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_Master.png using Guid(4e6c25f2d5d40174c8fd8a1476b7418e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755f31bf1efa16bffd6034411ac7d414') in 0.021116 seconds 
+  Import took 0.024504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_z.png
+  artifactKey: Guid(6d4998875e271944d8bcf82954ff8778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_z.png using Guid(6d4998875e271944d8bcf82954ff8778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294231357f6502f64f163345e0ca7e45') in 0.014490 seconds 
+  Import took 0.017368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot.png
+  artifactKey: Guid(de7397ec3138cf94ca35dde8f8854315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot.png using Guid(de7397ec3138cf94ca35dde8f8854315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64bdec4194d29bfe9d99721bf78dc51') in 0.027429 seconds 
+  Import took 0.029950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Particles_Light.png
+  artifactKey: Guid(c7c054e2a19ec064c8ce5d142feb1db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Particles_Light.png using Guid(c7c054e2a19ec064c8ce5d142feb1db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfd22c2283c9691ddeda57e0bbc20b5') in 0.007964 seconds 
+  Import took 0.011206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Closed.png
+  artifactKey: Guid(54d52848ccd739142a78364244d8cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Closed.png using Guid(54d52848ccd739142a78364244d8cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21476e47bb3466766b4768a27df7db20') in 0.020768 seconds 
+  Import took 0.023275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Dynamic.png
+  artifactKey: Guid(7ed460e66094112428a03510ec444fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Dynamic.png using Guid(7ed460e66094112428a03510ec444fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a963368fbc9d246dae99dbc2c2e196e5') in 0.008940 seconds 
+  Import took 0.012317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Closed_Light.png
+  artifactKey: Guid(fd32c79a13e4f3f4897243199eea0d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Closed_Light.png using Guid(fd32c79a13e4f3f4897243199eea0d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784ec8a4f2975ffdfeccb68a1cdfc25') in 0.022113 seconds 
+  Import took 0.024943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_y.png
+  artifactKey: Guid(4028b3359bd8345468168e480b0f185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_y.png using Guid(4028b3359bd8345468168e480b0f185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8ccd7a83a4c86c6a5411ff6098ed6d') in 0.011757 seconds 
+  Import took 0.014661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Example Scenes.png
+  artifactKey: Guid(49644beaccc74e943830e680eb249b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Example Scenes.png using Guid(49644beaccc74e943830e680eb249b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ac6b35a016e781bfe532a465ef1486') in 0.007945 seconds 
+  Import took 0.010900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Create_Trigger.png
+  artifactKey: Guid(6409719eecee4b244b979e48be9948a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Create_Trigger.png using Guid(6409719eecee4b244b979e48be9948a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1dcb7b7d1cd742a8173c3821e3d83f') in 0.008329 seconds 
+  Import took 0.011487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility_On.png
+  artifactKey: Guid(566ed8531838394489283a3cc3b9ac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Game_Visibility_On.png using Guid(566ed8531838394489283a3cc3b9ac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45190d2bd6a8f5ae21800e37125b10a') in 0.013531 seconds 
+  Import took 0.017239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Auto.png
+  artifactKey: Guid(4cc4f243e20a45a4ba2cc1d61d35ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Auto.png using Guid(4cc4f243e20a45a4ba2cc1d61d35ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6656f532aecf36218a2bda7bf782e29c') in 0.014875 seconds 
+  Import took 0.018361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_x.png
+  artifactKey: Guid(133c61a56f72bc84cb926576cecee7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_x.png using Guid(133c61a56f72bc84cb926576cecee7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c006a277d14220e293e43f437038be38') in 0.019424 seconds 
+  Import took 0.022568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_z_Light.png
+  artifactKey: Guid(1788be66057163a4c888266572eff475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_z_Light.png using Guid(1788be66057163a4c888266572eff475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5911d037644cde4e4fd2a073e79be77') in 0.008340 seconds 
+  Import took 0.011120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_Master_Light.png
+  artifactKey: Guid(6103af2cc8d692549911785ee04f389f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_Master_Light.png using Guid(6103af2cc8d692549911785ee04f389f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee17e0978a789e16d0c05416b481ddab') in 0.013689 seconds 
+  Import took 0.017166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Blocks.png
+  artifactKey: Guid(daf5ca51201f1614a9d137a0ef355201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Blocks.png using Guid(daf5ca51201f1614a9d137a0ef355201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ccd2ecc037189fb365346b5330167d') in 0.016984 seconds 
+  Import took 0.020186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export_Selected_Light.png
+  artifactKey: Guid(ffdc239ce3d187f43a63935b391f2701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export_Selected_Light.png using Guid(ffdc239ce3d187f43a63935b391f2701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c81b2b7f164510286c5d14b1119991') in 0.022722 seconds 
+  Import took 0.025801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Create_Trigger_Light.png
+  artifactKey: Guid(4f8f2032109426c4591fa5d35aecf569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Create_Trigger_Light.png using Guid(4f8f2032109426c4591fa5d35aecf569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ed89ec4e9cdfc860398c0ae2b20907') in 0.016336 seconds 
+  Import took 0.019855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Documentation_Light.png
+  artifactKey: Guid(118b85d53d9813f4cafc6c55d03ac660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Documentation_Light.png using Guid(118b85d53d9813f4cafc6c55d03ac660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e77a1bca59aa60609b9480de0de3fd') in 0.016682 seconds 
+  Import took 0.019540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_General_Notes_Light.png
+  artifactKey: Guid(97a4d916bd4ce174e9e6103007e22581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_General_Notes_Light.png using Guid(97a4d916bd4ce174e9e6103007e22581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f02e11087c53b10ba99dccf8392f00') in 0.018082 seconds 
+  Import took 0.020872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Open_Light.png
+  artifactKey: Guid(fab37bc74060f97409717cfd364f7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Lock_Open_Light.png using Guid(fab37bc74060f97409717cfd364f7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7d78274b900973404f7127b9f6abc6') in 0.022029 seconds 
+  Import took 0.024736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Floors.png
+  artifactKey: Guid(21119ea7ef7b17245b2d87c3929a9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Floors.png using Guid(21119ea7ef7b17245b2d87c3929a9938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c22a78d447bcd1fb79e59608947493') in 0.016598 seconds 
+  Import took 0.019694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comments.png
+  artifactKey: Guid(e6df5ef455494734bb25395163c6695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comments.png using Guid(e6df5ef455494734bb25395163c6695d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e72f6b240aab2cfc96d850be548170') in 0.008505 seconds 
+  Import took 0.012645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comments_Light.png
+  artifactKey: Guid(fa1005f098b93b547a8f1983a9e68f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Comments_Light.png using Guid(fa1005f098b93b547a8f1983a9e68f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42915b8282182280523b32dab171b9a3') in 0.018838 seconds 
+  Import took 0.022171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Area_Comments_Light.png
+  artifactKey: Guid(37775113c60af754ca9b14862e2334b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Area_Comments_Light.png using Guid(37775113c60af754ca9b14862e2334b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d88c454a4133853fa4ecbacc80ef62f') in 0.014120 seconds 
+  Import took 0.016591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export_Light.png
+  artifactKey: Guid(e4be6df9c68bdc84a945bc4b00faa4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Export_Light.png using Guid(e4be6df9c68bdc84a945bc4b00faa4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cf0492a84223d6924eb230c7ecebd2') in 0.019794 seconds 
+  Import took 0.022490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_General_Notes.png
+  artifactKey: Guid(ab39e32f8367c184ab7a8aad0224145e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_General_Notes.png using Guid(ab39e32f8367c184ab7a8aad0224145e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f338f323a24e2dd6f4c69731db6926') in 0.014662 seconds 
+  Import took 0.017365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Foliage.png
+  artifactKey: Guid(cdeed4f6a8c994849b70fed7e6368738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Foliage.png using Guid(cdeed4f6a8c994849b70fed7e6368738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a194c5cf531765d6163f9a2506cf632e') in 0.013640 seconds 
+  Import took 0.016688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_y_Light.png
+  artifactKey: Guid(caf077cd1f5c1a64883321df6462edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Mirror_y_Light.png using Guid(caf077cd1f5c1a64883321df6462edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0395b83ed6846c607c7d4a63062efe') in 0.015908 seconds 
+  Import took 0.019079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Blocks_Light.png
+  artifactKey: Guid(20555b88e7dc9484badd18a599e8c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Blocks_Light.png using Guid(20555b88e7dc9484badd18a599e8c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d79e5f497365e4d00f569cbc26c7bd') in 0.027369 seconds 
+  Import took 0.031114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.478751 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Light.png
+  artifactKey: Guid(86fb55626636f4049b1b3eccec5574e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Light.png using Guid(86fb55626636f4049b1b3eccec5574e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4167f6574c8120c5c7406b354a6fd02') in 0.019984 seconds 
+  Import took 0.023519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_Off_Light.png
+  artifactKey: Guid(1f83fcf80f5b7bb46b17de1c32e60031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_Off_Light.png using Guid(1f83fcf80f5b7bb46b17de1c32e60031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba99c43bbf1414e7cc2963fbf520c88a') in 0.018823 seconds 
+  Import took 0.021765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_On.png
+  artifactKey: Guid(89ff300a75dc1d74fb39ab4330870e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_On.png using Guid(89ff300a75dc1d74fb39ab4330870e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9f9875d0f39d38b77d2a3ef91e6f69') in 0.016146 seconds 
+  Import took 0.018794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Light.png
+  artifactKey: Guid(86fb55626636f4049b1b3eccec5574e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Screenshot_Light.png using Guid(86fb55626636f4049b1b3eccec5574e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4167f6574c8120c5c7406b354a6fd02') in 0.009815 seconds 
+  Import took 0.012866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_Off.png
+  artifactKey: Guid(477b1c5b22888c643bd7f186198b92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_Off.png using Guid(477b1c5b22888c643bd7f186198b92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a0febb1fd9ea7980bd244ed3f4fd66') in 0.007717 seconds 
+  Import took 0.010402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045721 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_On_Light.png
+  artifactKey: Guid(a78b5c2f32e9ef9439b27f12e0d1c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Particles_On_Light.png using Guid(a78b5c2f32e9ef9439b27f12e0d1c71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab73b5b75f64aedf2890670d01a35b0') in 0.016050 seconds 
+  Import took 0.018912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Off_Light.png
+  artifactKey: Guid(32d5ab22650309941a82c615d1bc94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Off_Light.png using Guid(32d5ab22650309941a82c615d1bc94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5187a32af35b9584c0f542bc377ee6') in 0.009976 seconds 
+  Import took 0.012514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Off.png
+  artifactKey: Guid(329c80c415d96cc4fbd513276fa097b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Off.png using Guid(329c80c415d96cc4fbd513276fa097b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959c99da1aee01a35aed93d3fd928d53') in 0.009335 seconds 
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_Off.png
+  artifactKey: Guid(925fb80ce24c98b4d9f90474ec77b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_Off.png using Guid(925fb80ce24c98b4d9f90474ec77b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c99c48e0fffe5e458bfa433510b662') in 0.012031 seconds 
+  Import took 0.015241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_On_Light.png
+  artifactKey: Guid(367e8477acc26ba4fb2f0d74138ff368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_On_Light.png using Guid(367e8477acc26ba4fb2f0d74138ff368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74b2b5f0fb04bcc4def2b5307e86f61') in 0.013326 seconds 
+  Import took 0.016518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_Off_Light.png
+  artifactKey: Guid(7c1d98084e42b69449659631c85f797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_Off_Light.png using Guid(7c1d98084e42b69449659631c85f797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500e49f408e327bae1707c534b842f14') in 0.014349 seconds 
+  Import took 0.016945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_On.png
+  artifactKey: Guid(0dcc7ac903bfb1444bb517494ad0a397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_All_Triggers_On.png using Guid(0dcc7ac903bfb1444bb517494ad0a397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff82ba45dd442d1ab48ae1fbfaeb02ef') in 0.018811 seconds 
+  Import took 0.021488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.271747 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_On.png
+  artifactKey: Guid(61a12b2791cb1504395b7b9a0a17351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_On.png using Guid(61a12b2791cb1504395b7b9a0a17351d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1a509635438d7132965819c471fb14') in 0.020288 seconds 
+  Import took 0.022874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418801 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_On_Light.png
+  artifactKey: Guid(02b79d8c4fa6c8f448a409b00338d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_On_Light.png using Guid(02b79d8c4fa6c8f448a409b00338d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c410931de71fd7074ac844100fcd9a2') in 0.015174 seconds 
+  Import took 0.017734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042548 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_Off.png
+  artifactKey: Guid(f7727107015767c4ea13689002a7763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_Off.png using Guid(f7727107015767c4ea13689002a7763f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97c2629f00ce9c69dfa807646922f98') in 0.019835 seconds 
+  Import took 0.022482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470753 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_Off_Light.png
+  artifactKey: Guid(19fdf262b40a6e24196328416fceca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_Off_Light.png using Guid(19fdf262b40a6e24196328416fceca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08f2e069589d644c3feab3cbb549bf7') in 0.025884 seconds 
+  Import took 0.028430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.523273 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_On.png
+  artifactKey: Guid(9d67734623f060e429cfd8bdec5f9585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_On.png using Guid(9d67734623f060e429cfd8bdec5f9585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05bffa8256857143d2806ef7e7bcd57') in 0.028699 seconds 
+  Import took 0.032042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_On_Light.png
+  artifactKey: Guid(4a4dfc26ed5c66d41bfa620386d9b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Toggle_Selected_Triggers_On_Light.png using Guid(4a4dfc26ed5c66d41bfa620386d9b8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c887bcb09450dddce4a54c0d4443b0') in 0.019210 seconds 
+  Import took 0.021749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056139 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Walls.png
+  artifactKey: Guid(13ff3fb57b411424685f04be28760ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Walls.png using Guid(13ff3fb57b411424685f04be28760ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3f7f04f6f3304ede728365d536dc0d') in 0.007651 seconds 
+  Import took 0.010726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369937 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Walls_Light.png
+  artifactKey: Guid(3a109ba722fba9e43b8b6f541afa5e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_Walls_Light.png using Guid(3a109ba722fba9e43b8b6f541afa5e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a776f226c72b3c39e4d4311caa22420d') in 0.018428 seconds 
+  Import took 0.021007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042997 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x90.png
+  artifactKey: Guid(179810a695f3c36458376f9a231692f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x90.png using Guid(179810a695f3c36458376f9a231692f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e6eaf20adec5f302f977cc73bae77b') in 0.007750 seconds 
+  Import took 0.010357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355783 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x90_Light.png
+  artifactKey: Guid(af9342c725cf5f74e87bb80db19d30dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x90_Light.png using Guid(af9342c725cf5f74e87bb80db19d30dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3744efed4b44e10ccb8ac7c99ac7889c') in 0.013742 seconds 
+  Import took 0.016548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046920 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x180.png
+  artifactKey: Guid(73a0a13e0680dca4aa20fc0e02521d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x180.png using Guid(73a0a13e0680dca4aa20fc0e02521d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546adfe07f47b6fb79193722be9fc291') in 0.008571 seconds 
+  Import took 0.014143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.812376 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x180_Light.png
+  artifactKey: Guid(dfc06b1098ce37f45bfc7018c641eb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_x180_Light.png using Guid(dfc06b1098ce37f45bfc7018c641eb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efede31bd7f2d0d3196dc2a83bea20c') in 0.022353 seconds 
+  Import took 0.024982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052081 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y90.png
+  artifactKey: Guid(023c07077ca936842beb9cfaa4f9a94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y90.png using Guid(023c07077ca936842beb9cfaa4f9a94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8ed5c869a33944c45669ac394889b8') in 0.007702 seconds 
+  Import took 0.010367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478132 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y90_Light.png
+  artifactKey: Guid(ef36eb7f800e7764aabf93551edb54c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y90_Light.png using Guid(ef36eb7f800e7764aabf93551edb54c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4696232ff25369e19e4edac51953f6') in 0.007591 seconds 
+  Import took 0.010178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044335 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y180.png
+  artifactKey: Guid(18d353cddeb49c54a9483fdd50dcdf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y180.png using Guid(18d353cddeb49c54a9483fdd50dcdf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14da46f73b80bfdd20ff5f8da52f39fb') in 0.008688 seconds 
+  Import took 0.011319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362909 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y180_Light.png
+  artifactKey: Guid(30f15bd47953b354d9b56773cbff4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_y180_Light.png using Guid(30f15bd47953b354d9b56773cbff4edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd969f4aaa5026b439fd8682cd0592a') in 0.017899 seconds 
+  Import took 0.020511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041907 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z90.png
+  artifactKey: Guid(0afbbe589d07f83478d93127b5f74e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z90.png using Guid(0afbbe589d07f83478d93127b5f74e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dce48e49742126fe95197938976b699') in 0.008061 seconds 
+  Import took 0.010810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366579 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z90_Light.png
+  artifactKey: Guid(24f2df41bdffd0142908767b8d9cd084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z90_Light.png using Guid(24f2df41bdffd0142908767b8d9cd084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0f13a49c1ec2c3698c501db697873e') in 0.012265 seconds 
+  Import took 0.015929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045923 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z180.png
+  artifactKey: Guid(91dbc7580d52449429c059fed0438a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z180.png using Guid(91dbc7580d52449429c059fed0438a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c2ed0fcac20d98256a9ff8158fc632') in 0.007406 seconds 
+  Import took 0.010065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.346232 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z180_Light.png
+  artifactKey: Guid(55dcd98d3b9b53040b40d275c97d0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Button_z180_Light.png using Guid(55dcd98d3b9b53040b40d275c97d0116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057fff3099ddf13a36570aa26240cf1c') in 0.018969 seconds 
+  Import took 0.027795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038804 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Camera_Anchors.png
+  artifactKey: Guid(1fe22a537dc3afb4a8ea3bc13b263a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Camera_Anchors.png using Guid(1fe22a537dc3afb4a8ea3bc13b263a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfcc6c3c54ff5c2a8fb97dbbfb1091a') in 0.019228 seconds 
+  Import took 0.023322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.293365 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Camera_Anchors_Light.png
+  artifactKey: Guid(e062869fb9cf52f409ee6680b4333bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Camera_Anchors_Light.png using Guid(e062869fb9cf52f409ee6680b4333bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e837c80b059f10ec100e7768ea31bd') in 0.063708 seconds 
+  Import took 0.066685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Comments.png
+  artifactKey: Guid(1dd9c45bbea164649bc353b89decdf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Comments.png using Guid(1dd9c45bbea164649bc353b89decdf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3def7b9002aeaa88096e000062340a1a') in 0.014958 seconds 
+  Import took 0.017478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032819 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Comments_Light.png
+  artifactKey: Guid(e5506cc666cfe2f45a56f0f1ba211e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Comments_Light.png using Guid(e5506cc666cfe2f45a56f0f1ba211e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab1ffec8bab9873a1ac1802e265833e') in 0.026053 seconds 
+  Import took 0.028567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261362 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Dark.png
+  artifactKey: Guid(095925f828dc0114c85bcac8bafe6f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Dark.png using Guid(095925f828dc0114c85bcac8bafe6f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91264d2fbf36102cf2e2ecb8e447611') in 0.010806 seconds 
+  Import took 0.013869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002248 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Dark.png
+  artifactKey: Guid(095925f828dc0114c85bcac8bafe6f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Dark.png using Guid(095925f828dc0114c85bcac8bafe6f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91264d2fbf36102cf2e2ecb8e447611') in 0.007467 seconds 
+  Import took 0.011198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079977 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Grid_Snapping.png
+  artifactKey: Guid(c45e4af0c56bb98459080899a1bec798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Grid_Snapping.png using Guid(c45e4af0c56bb98459080899a1bec798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34583c1c56a563e445147d85ae8655f') in 0.018641 seconds 
+  Import took 0.021768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Grid_Snapping_Light.png
+  artifactKey: Guid(528c6f63e6352e84489f5bbace489e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Grid_Snapping_Light.png using Guid(528c6f63e6352e84489f5bbace489e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285cfcf897a7b5819ac46d321b3b074d') in 0.018103 seconds 
+  Import took 0.020775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233831 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Heirachy_Tools.png
+  artifactKey: Guid(182f68ceca26cda48919a2660b207b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Heirachy_Tools.png using Guid(182f68ceca26cda48919a2660b207b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c3b0e165e5a8a68c4062160aa42354') in 0.007499 seconds 
+  Import took 0.010126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000872 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Heirachy_Tools.png
+  artifactKey: Guid(182f68ceca26cda48919a2660b207b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Heirachy_Tools.png using Guid(182f68ceca26cda48919a2660b207b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c3b0e165e5a8a68c4062160aa42354') in 0.005939 seconds 
+  Import took 0.008950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066837 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Heirachy_Tools_Light.png
+  artifactKey: Guid(655bbbd79eab0de438c522c8ee6f6c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Heirachy_Tools_Light.png using Guid(655bbbd79eab0de438c522c8ee6f6c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1177f66141129d0e07989bbda4f76c97') in 0.013916 seconds 
+  Import took 0.016690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Others.png
+  artifactKey: Guid(374802a526b493043807bac066c49f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Others.png using Guid(374802a526b493043807bac066c49f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f52e9a08c37153bb21445526b9abebd') in 0.020634 seconds 
+  Import took 0.023427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Light.png
+  artifactKey: Guid(7c5e5b67ee33eb04d96f6a0fe5b9e150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Light.png using Guid(7c5e5b67ee33eb04d96f6a0fe5b9e150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9d5ed6bfa1d4175e237c28ddcfe127') in 0.009840 seconds 
+  Import took 0.013301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Others_Light.png
+  artifactKey: Guid(3cdeb08f77a4e5642af1a63b002c3abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Others_Light.png using Guid(3cdeb08f77a4e5642af1a63b002c3abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7485bd9bc3622001cb00787928b52d') in 0.027498 seconds 
+  Import took 0.030180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011019 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Object.png
+  artifactKey: Guid(e88f54dfb336587409ec986c5fec09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Object.png using Guid(e88f54dfb336587409ec986c5fec09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e983ebeb775664072d1afc183f36de86') in 0.019855 seconds 
+  Import took 0.022909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.429139 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Object_Light.png
+  artifactKey: Guid(09a56349232034148ad53696633e1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Object_Light.png using Guid(09a56349232034148ad53696633e1c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2069b06b361e9b99f2db6dff5f1cd6') in 0.008063 seconds 
+  Import took 0.010930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045218 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Objects.png
+  artifactKey: Guid(14c59836aa7b8314c82177b4881ecadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Objects.png using Guid(14c59836aa7b8314c82177b4881ecadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4663dd688d18d2882d70ce30300a4fb5') in 0.014620 seconds 
+  Import took 0.017365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.628838 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Objects_Light.png
+  artifactKey: Guid(e514e374aa33f2b4580fa82ec242c552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Scalable_Objects_Light.png using Guid(e514e374aa33f2b4580fa82ec242c552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d298f4dcb719497b78d40c0480141b') in 0.006803 seconds 
+  Import took 0.009588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060966 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Spacer.png
+  artifactKey: Guid(d0987e58d864f9d418564ec3b9a42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Spacer.png using Guid(d0987e58d864f9d418564ec3b9a42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9ae0abdaf257cac78897b7c85a50b5') in 0.015727 seconds 
+  Import took 0.018261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000506 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Spacer_Light.png
+  artifactKey: Guid(e73d691f9f5e43c4b90b714aead83e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Spacer_Light.png using Guid(e73d691f9f5e43c4b90b714aead83e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726f417bbe016f614de574f7d02a3401') in 0.021547 seconds 
+  Import took 0.024118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001441 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Spacer_Light.png
+  artifactKey: Guid(e73d691f9f5e43c4b90b714aead83e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Spacer_Light.png using Guid(e73d691f9f5e43c4b90b714aead83e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726f417bbe016f614de574f7d02a3401') in 0.006530 seconds 
+  Import took 0.009632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Transform_Controls.png
+  artifactKey: Guid(1b6cc8a7ea5378845ae060c57593cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Transform_Controls.png using Guid(1b6cc8a7ea5378845ae060c57593cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead292b307ab2af4abcb5b0f9f9ff01f') in 0.015545 seconds 
+  Import took 0.018680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011620 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Transform_Controls.png
+  artifactKey: Guid(1b6cc8a7ea5378845ae060c57593cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Transform_Controls.png using Guid(1b6cc8a7ea5378845ae060c57593cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead292b307ab2af4abcb5b0f9f9ff01f') in 0.005523 seconds 
+  Import took 0.008724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.263143 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Transform_Controls_Light.png
+  artifactKey: Guid(93bdd19e321f3814a829875c017de89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Transform_Controls_Light.png using Guid(93bdd19e321f3814a829875c017de89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6af85b52e383a0f3c078899dac6d26') in 0.015068 seconds 
+  Import took 0.017821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038067 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Trash_Can.png
+  artifactKey: Guid(e83ca3e14eb3c1543ad6a672db8d8cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Trash_Can.png using Guid(e83ca3e14eb3c1543ad6a672db8d8cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1364d585765d3e6715138635d97d4') in 0.013471 seconds 
+  Import took 0.016916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Tri_Planar.png
+  artifactKey: Guid(d7aa63268f6b58242b5fc813feeda64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Tri_Planar.png using Guid(d7aa63268f6b58242b5fc813feeda64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37551da8d1eb3945d9b87164dac85c20') in 0.009138 seconds 
+  Import took 0.011852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Trash_Can_Light.png
+  artifactKey: Guid(6d8bb0a544da5fc46ac3ff8d84c301cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Trash_Can_Light.png using Guid(6d8bb0a544da5fc46ac3ff8d84c301cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b1c96056f263084507f539635e8d4') in 0.012683 seconds 
+  Import took 0.015630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.358922 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Tri_Planar_Light.png
+  artifactKey: Guid(dd37e1f7ddc93b746b2ab76b48777a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Tri_Planar_Light.png using Guid(dd37e1f7ddc93b746b2ab76b48777a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ea62fe98bb86beecae0cfb559615c1') in 0.018770 seconds 
+  Import took 0.021383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042211 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Triggers.png
+  artifactKey: Guid(fdeef2adc8d2c8e4a884e9f4d4ed700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Triggers.png using Guid(fdeef2adc8d2c8e4a884e9f4d4ed700e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33fc5f6c65e696e3094faebaa515abf') in 0.009825 seconds 
+  Import took 0.013384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502483 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Triggers_Light.png
+  artifactKey: Guid(8188fdb7aa9a9e042b2d6a4338ba026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Icon_Triggers_Light.png using Guid(8188fdb7aa9a9e042b2d6a4338ba026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb8725e04f442b199c4007a2f77baa8') in 0.017057 seconds 
+  Import took 0.019822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Logo.png
+  artifactKey: Guid(cb5b904537801db438c6989d652b3b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Logo.png using Guid(cb5b904537801db438c6989d652b3b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29063df126a53f123ce2b05a34918c14') in 0.018809 seconds 
+  Import took 0.022131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056377 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Logo_light.png
+  artifactKey: Guid(98c24c0288d8d4d8fa1b09377862023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Logo_light.png using Guid(98c24c0288d8d4d8fa1b09377862023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb20153a44772a1fb6ba70af9a9bcae') in 0.012648 seconds 
+  Import took 0.015439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Name.png
+  artifactKey: Guid(91068f7829f111845a38a9e0d5610378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Name.png using Guid(91068f7829f111845a38a9e0d5610378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0466968065fa8326af3b25483ba62637') in 0.018506 seconds 
+  Import took 0.021687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.931979 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Name_Light.png
+  artifactKey: Guid(4a4aaf783e99da1438cb96979961afa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Name_Light.png using Guid(4a4aaf783e99da1438cb96979961afa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65414be0808e1b2d4e1ff4e3f8fd5994') in 0.019560 seconds 
+  Import took 0.022193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Other_Notes.png
+  artifactKey: Guid(fd21d14a995f345469b3db78e8f75954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Other_Notes.png using Guid(fd21d14a995f345469b3db78e8f75954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f65c57f63f6a644c78794aab182ab14') in 0.038096 seconds 
+  Import took 0.041773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Other_Notes_Light.png
+  artifactKey: Guid(993ec4c9d61f064408efd70df8dd2d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Other_Notes_Light.png using Guid(993ec4c9d61f064408efd70df8dd2d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8786e98672002c14ceac9b425705075e') in 0.019265 seconds 
+  Import took 0.022474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Scene_Favourites.png
+  artifactKey: Guid(7c762fbe7ae277f45a06c6ee0644004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Scene_Favourites.png using Guid(7c762fbe7ae277f45a06c6ee0644004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3267826d0f6d7bbfb4dc6b5650fca7') in 0.017690 seconds 
+  Import took 0.020435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Pin_Comments_Light.png
+  artifactKey: Guid(4ca5a9ede3c0d7448bbda899c890b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Pin_Comments_Light.png using Guid(4ca5a9ede3c0d7448bbda899c890b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95efa7469528fd1da98c4e505384cabb') in 0.035153 seconds 
+  Import took 0.037849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_To_Do_Notes.png
+  artifactKey: Guid(07923796e3aaf93458d3c586dc1c4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_To_Do_Notes.png using Guid(07923796e3aaf93458d3c586dc1c4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603fb2a0d58afd89823b1391737df901') in 0.014513 seconds 
+  Import took 0.017370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_5.tga
+  artifactKey: Guid(6df3b52f61acc9e458f9e2874624580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_5.tga using Guid(6df3b52f61acc9e458f9e2874624580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904b444bdf3a58f7ee90487e46d7b91e') in 0.086851 seconds 
+  Import took 0.090198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(a432884f2f6353d44bbd070d27689810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(a432884f2f6353d44bbd070d27689810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbeb15f590f68df713f4d8d5a12874b') in 0.006805 seconds 
+  Import took 0.009740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_To_Do_Notes_Light.png
+  artifactKey: Guid(1803e762f3b3c6d4eb1c7dae16e1b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_To_Do_Notes_Light.png using Guid(1803e762f3b3c6d4eb1c7dae16e1b7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdd2716ae16aacc3263eb5b2c526bb4') in 0.019832 seconds 
+  Import took 0.023304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Comment_Info_Light.png
+  artifactKey: Guid(6a1e817adcfa40543b04b87f118f447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Comment_Info_Light.png using Guid(6a1e817adcfa40543b04b87f118f447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a5d4beba2ea0f42f68bf69d42fe6fb') in 0.048796 seconds 
+  Import took 0.051807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_5.png
+  artifactKey: Guid(c2e0e03cc267d0c46932655e3ee6ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_5.png using Guid(c2e0e03cc267d0c46932655e3ee6ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee16a94a62da661c0bffc375b30f3ae7') in 0.025293 seconds 
+  Import took 0.027924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_1.png
+  artifactKey: Guid(68468bd47a8368b4cbc6724bb7518f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_1.png using Guid(68468bd47a8368b4cbc6724bb7518f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544d9a4b9c1ba64bd61235a2d5ad9941') in 0.018151 seconds 
+  Import took 0.021078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_6.tga
+  artifactKey: Guid(1129170a07ee4ad47983f67d5d938fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_6.tga using Guid(1129170a07ee4ad47983f67d5d938fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16fd27f06fc79bf6033026b415ae24d') in 0.022065 seconds 
+  Import took 0.032401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_5.png
+  artifactKey: Guid(1c64a0d39440f3346acd70d5f8b0ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_5.png using Guid(1c64a0d39440f3346acd70d5f8b0ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00db4ff278682d7d09acf639c15b5451') in 0.028071 seconds 
+  Import took 0.031167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Comment_Info.png
+  artifactKey: Guid(ece0efb32925a0a44a607a100b56ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Comment_Info.png using Guid(ece0efb32925a0a44a607a100b56ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8080a458271a3e2a54268c8103a27a') in 0.020364 seconds 
+  Import took 0.023376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_6.png
+  artifactKey: Guid(2dbf37aabc76296418d7af81409e504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_6.png using Guid(2dbf37aabc76296418d7af81409e504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f075f909b593839fa4833444dbd895') in 0.023841 seconds 
+  Import took 0.026688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_4.png
+  artifactKey: Guid(f42cf6d334db93442a4b8ea5e1a79572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_4.png using Guid(f42cf6d334db93442a4b8ea5e1a79572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e10755a763c9e6020af8e39c5f05f3') in 0.018143 seconds 
+  Import took 0.020779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_3.png
+  artifactKey: Guid(005caad8e92bc2e46bc37c46114f9559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_3.png using Guid(005caad8e92bc2e46bc37c46114f9559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4f6ee4c3f4508e91ad2db6a0261500') in 0.024937 seconds 
+  Import took 0.027836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_6.png
+  artifactKey: Guid(e8ca7d5182fe89448b4b1fcf7a4c3525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_6.png using Guid(e8ca7d5182fe89448b4b1fcf7a4c3525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de1fbf5168bf11d797dbec6705fda19') in 0.031630 seconds 
+  Import took 0.034606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_2.png
+  artifactKey: Guid(3fa75c20041bbfa41be0b0e95b5b8958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_2.png using Guid(3fa75c20041bbfa41be0b0e95b5b8958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b89dda950dab8f357f0aa7a1b96021') in 0.024685 seconds 
+  Import took 0.027646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Pin_Comments.png
+  artifactKey: Guid(a62e21778790c5044b923269cba6af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Pin_Comments.png using Guid(a62e21778790c5044b923269cba6af93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d85b5731495a6e5714a0877180ccb0a') in 0.019112 seconds 
+  Import took 0.021785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_3.png
+  artifactKey: Guid(20e60728f451c7244a80d4b9555d1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_3.png using Guid(20e60728f451c7244a80d4b9555d1b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9789dfee56444cff608b62540e5df4b') in 0.018594 seconds 
+  Import took 0.021771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Scene_Favourites_Light.png
+  artifactKey: Guid(63341309debd62a47bd958156bb1aa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Scene_Favourites_Light.png using Guid(63341309debd62a47bd958156bb1aa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618e864ccfd47bdc900adb6c402ccef6') in 0.019438 seconds 
+  Import took 0.022029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_4.png
+  artifactKey: Guid(eff7086618a405f4eb627f71f553507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Theme_4.png using Guid(eff7086618a405f4eb627f71f553507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea9708c74e3ee9a8ec154543de72f41') in 0.020845 seconds 
+  Import took 0.023737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_2.png
+  artifactKey: Guid(c250419e129e5bf4e90fcfa1ef536bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_2.png using Guid(c250419e129e5bf4e90fcfa1ef536bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769c962b37f4afb6b25254eea43bce57') in 0.020561 seconds 
+  Import took 0.023366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_1.png
+  artifactKey: Guid(c2c75ba6ac2193741aef03ead6b9b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Icon_Blockout_Test_Texture_1.png using Guid(c2c75ba6ac2193741aef03ead6b9b7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd339aed9fe40bcda0b007bc7a36fb328') in 0.010685 seconds 
+  Import took 0.026827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026620 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggested_Assets.png
+  artifactKey: Guid(a4053ccce1201944da601eef6f35b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggested_Assets.png using Guid(a4053ccce1201944da601eef6f35b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a2271d727dd84d52d667e97edfab7a') in 0.022994 seconds 
+  Import took 0.026003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggestions_Light.png
+  artifactKey: Guid(0f0b97f78b7365c44ace9ea6b97ae7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggestions_Light.png using Guid(0f0b97f78b7365c44ace9ea6b97ae7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755d92e54f06c4842852e062d273e579') in 0.099209 seconds 
+  Import took 0.104950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggestions.png
+  artifactKey: Guid(3c4dc271738b00f41afb5de6e01a72b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggestions.png using Guid(3c4dc271738b00f41afb5de6e01a72b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991e27ea8d081a6f89907df7732281d2') in 0.030081 seconds 
+  Import took 0.035256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggested_Assets_Light.png
+  artifactKey: Guid(4e6e78fed2c6f1e408ce2c75301f07ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Blockout_Suggested_Assets_Light.png using Guid(4e6e78fed2c6f1e408ce2c75301f07ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87913dc5ec4127634e511365bcb46157') in 0.017968 seconds 
+  Import took 0.021471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959701 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_2.tga
+  artifactKey: Guid(d97a42fffb9c00e4b8ff2bf5df33ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_2.tga using Guid(d97a42fffb9c00e4b8ff2bf5df33ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0701114fe01960f6767ee8921691788') in 0.045900 seconds 
+  Import took 0.049447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_3.tga
+  artifactKey: Guid(6542580d167e76d45852c27c9fb3476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_3.tga using Guid(6542580d167e76d45852c27c9fb3476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaab4919c0c1e879ab159b4e00fcba0') in 0.026488 seconds 
+  Import took 0.029642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_4.tga
+  artifactKey: Guid(584a75c01ab0bff48a6ee8b535cb8b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Resources/Blockout/BlockoutTextures/Blockout_Test_Texture_4.tga using Guid(584a75c01ab0bff48a6ee8b535cb8b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944550e69b0a2fedd6a6b2ce6fc328b6') in 0.019562 seconds 
+  Import took 0.022508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Click_In_The_Scene.png
+  artifactKey: Guid(292bfc83574d872459f9fd6d2e55448d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Click_In_The_Scene.png using Guid(292bfc83574d872459f9fd6d2e55448d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b3d88e6a5f3bf0bb06ebc03b0d3df2') in 0.031773 seconds 
+  Import took 0.034567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Click_In_The_Scene_Light.png
+  artifactKey: Guid(8530df78606e91a47aa4fe2e045967c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Click_In_The_Scene_Light.png using Guid(8530df78606e91a47aa4fe2e045967c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83464748891af40414c108f813de2975') in 0.018743 seconds 
+  Import took 0.021827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013048 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Click_In_The_Scene_Light.png
+  artifactKey: Guid(8530df78606e91a47aa4fe2e045967c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/Click_In_The_Scene_Light.png using Guid(8530df78606e91a47aa4fe2e045967c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83464748891af40414c108f813de2975') in 0.007610 seconds 
+  Import took 0.010475 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1126ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2163.
+Total: 2.625500 ms (FindLiveObjects: 0.170200 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.374300 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 434.014327 seconds.
+  path: Assets/Blockout/Editor/Resources/Blockout/UI_Icons/FPS_Button_Long.png
+  artifactKey: Guid(88276880f549fbb45a0fb33ef99fa953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockout/Editor/Resources/Blockout/UI_Icons/FPS_Button_Long.png using Guid(88276880f549fbb45a0fb33ef99fa953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bb0a4d1808deac70cf550ff515c2f0') in 0.089701 seconds 
+  Import took 0.092405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.928330 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(2936fe9801ed72d4eb4c1a177cf9842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(2936fe9801ed72d4eb4c1a177cf9842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d271583d952da2521e78ae04090c30') in 0.005475 seconds 
+  Import took 0.008071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1214ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (993ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2166.
+Total: 3.525000 ms (FindLiveObjects: 0.582600 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.808400 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117.635352 seconds.
+  path: Assets/Tree_Textures
+  artifactKey: Guid(5042414a28fd40b4494962f20d540738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures using Guid(5042414a28fd40b4494962f20d540738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923dd740c6e82d6dd1ffc54763cac29d') in 0.005642 seconds 
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.711235 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(4f0281e4ccfe2e64299d2ecefdf0873b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(4f0281e4ccfe2e64299d2ecefdf0873b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e503b77a976f579830ad64fb7554b00') in 0.034772 seconds 
+  Import took 0.037228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(ba83e229f3f03db4299186fbd99c078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(ba83e229f3f03db4299186fbd99c078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4c4ef47c8f80bcdd27bc52980aed1c') in 0.005978 seconds 
+  Import took 0.008770 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (805ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2169.
+Total: 1.784200 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.563300 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2171.
+Total: 1.765000 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.534100 ms  DeleteObjects: 0.047800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

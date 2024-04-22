@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{374B54C0-799E-5AA6-281A-97B5B2890C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalForge.Blockout", "RadicalForge.Blockout.csproj", "{9C572721-C104-31F5-B7AB-9C9E13F0ABAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadicalForge.Blockout.Editor", "RadicalForge.Blockout.Editor.csproj", "{3D2B282D-5323-6541-C208-A297C620E981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374B54C0-799E-5AA6-281A-97B5B2890C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374B54C0-799E-5AA6-281A-97B5B2890C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374B54C0-799E-5AA6-281A-97B5B2890C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374B54C0-799E-5AA6-281A-97B5B2890C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C572721-C104-31F5-B7AB-9C9E13F0ABAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C572721-C104-31F5-B7AB-9C9E13F0ABAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C572721-C104-31F5-B7AB-9C9E13F0ABAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C572721-C104-31F5-B7AB-9C9E13F0ABAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2B282D-5323-6541-C208-A297C620E981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2B282D-5323-6541-C208-A297C620E981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2B282D-5323-6541-C208-A297C620E981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2B282D-5323-6541-C208-A297C620E981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

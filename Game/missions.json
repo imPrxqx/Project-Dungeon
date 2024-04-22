@@ -1,0 +1,29 @@
+{
+  "missions": [
+    {
+      "type": "hunt",
+      "title": "Slime hunt",
+      "info": "in your next run kill 10 slimes",
+      "enemy": "slime",
+      "amount": 10,
+      "price": 100
+    },
+    {
+      "type": "hunt",
+      "title": "berserk",
+      "info": "in your next run kill 20 enemyes",
+      "enemy": "any",
+      "amount": 20,
+      "price": 500
+    },
+    {
+      "type": "hunt",
+      "title": "UwU",
+      "info": "in your next run kill 5 wolves",
+      "enemy": "wolf",
+      "amount": 5,
+      "price": 200
+    }
+  ]
+
+}

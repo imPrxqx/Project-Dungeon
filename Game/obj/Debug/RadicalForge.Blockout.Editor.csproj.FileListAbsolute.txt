@@ -1,0 +1,2 @@
+D:\Unity\Project Dungeon\obj\Debug\RadicalForge.Blockout.Editor.csproj.AssemblyReference.cache
+D:\Unity\Project Dungeon\obj\Debug\RadicalForge.Blockout.Editor.csproj.CoreCompileInputs.cache
